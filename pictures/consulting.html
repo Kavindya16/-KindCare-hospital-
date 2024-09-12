@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="style.css" type= "text/css">
+
+</head>
+<body>
+    <section class="header">
+        <a href="#" id="logo"><img src="360_F_514364850_xLOQX6SOY2qcjAIcTowsi3xYvHmhmvs0.jpg" alt="image of hospital" width="300" height="200"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About-us and Contact</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="consulting.html">Consulting Reservation</a>
+            <a href="pharmacy.html">Pharmacy</a>
+        </nav>
+        <div class="icons">
+
+            <div class="fas fa-users" id="myuser"></div>
+            <div class="fas fa-search" id="search-bar"></div>
+            <div class="fas fa-bars" id="menu-bars"></div>
+        </div>
+        <div class="search-box">
+            <input type="search" placeholder="search here">
+        </div>
+    </section>
+    <!--main image-->
+<div class="flex-container">
+    <img src="hospital-interior-design-space-for-health.jpg" alt="hospital reception">
+    </div>
+    
+    <div class="main-background">
+            <section class="main-text">
+                <div class="centered">
+                 <br> OUR CONSULTING SERVICES
+                </div>
+            </section>
+    </div>
+    <section class="heading2">
+        <div>
+    <h3>DOCTOR CONSULTION RESERVATION FORM</h3>
+        </div>
+    </section>
+    <div class="container">
+      <h2>Doctor Consultation Reservation Form</h2>
+      <form action="/submit_reservation" method="POST">
+          <!-- Personal Details Section -->
+          <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="full-name" required>
+          </div>
+
+          <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <!-- Doctor Selection -->
+          <div class="form-group">
+              <label for="doctor">Choose Doctor</label>
+              <select id="doctor" name="doctor" required>
+                  <option value="">Select Doctor</option>
+                  <option value="Dr. John Doe">Dr. John Doe</option>
+                  <option value="Dr. Sarah Smith">Dr. Sarah Smith</option>
+                  <option value="Dr. James Lee">Dr. James Lee</option>
+              </select>
+          </div>
+
+          <!-- Date and Time -->
+          <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" required>
+          </div>
+
+          <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <input type="time" id="time" name="time" required>
+          </div>
+
+          <!-- Symptoms Description -->
+          <div class="form-group">
+              <label for="symptoms">Brief Description of Symptoms</label>
+              <textarea id="symptoms" name="symptoms" rows="4" required></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-group">
+              <button type="submit">Submit Reservation</button>
+          </div>
+      </form>
+  </div>
+      <section class="patient-registration-link">
+        <h1>Sign up for our health programs from the comfort of your home. <br>Enroll today to receive personalized care and access a range of services tailored to your needs.</h1>
+        <a href="about.html" class="hero-btn">About-us</a>
+      </section>
+    
+  <!--footer-->
+  <div class="clearfix"></div>
+<footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>KINDCARE<span>HOSPITAL</span></h3>
+
+      <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+        
+        <a href="#">Blog</a>
+      
+        <a href="#">Chanelling</a>
+      
+        <a href="#">About</a>
+        
+        <a href="#">Faq</a>
+        
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">kindcare hospital 2024</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>23 , Deshamanya</span> Dharmadasa Mawatha, Colombo</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>0777755552</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="kindcare@hospital.com">kindcare@hospital.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the hospital</span>
+        Kindcare Hospital is a modern healthcare facility dedicated to providing comprehensive medical services with a focus on patient-centered care. Equipped with advanced technology and a team of experienced professionals, it offers a wide range of treatments to ensure the well-being of its community.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="facebook-2019-05-21 (1).avif"><i class="fa fa-facebook"></i></a>
+        <a href="twitter-2013-10-08.avif"><i class="fa fa-twitter"></i></a>
+        <a href="linkedin-social-media-app-icon-illustration-173160385_iconl_nowm.webp"><i class="fa fa-linkedin"></i></a>
+        <a href="2018_social_media_popular_app_logo_instagram-512.webp"><i class="fa fa-instergram"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+</html>
